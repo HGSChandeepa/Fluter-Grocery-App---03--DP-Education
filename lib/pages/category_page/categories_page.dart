@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:layout_desiginig/pages/category_page/widgets/rating.dart';
 import 'package:layout_desiginig/widgets/resuable/category_page/category_card.dart';
 import 'package:layout_desiginig/widgets/resuable/category_page/selected_items.dart';
-import 'package:layout_desiginig/widgets/resuable/shared/notificatio_widget.dart';
+import 'package:layout_desiginig/widgets/shared/notificatio_widget.dart';
 
 class CategoriesPage extends StatelessWidget {
   const CategoriesPage({super.key});
