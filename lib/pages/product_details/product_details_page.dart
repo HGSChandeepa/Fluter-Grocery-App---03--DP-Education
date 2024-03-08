@@ -88,24 +88,28 @@ class ProductDetailsPage extends StatelessWidget {
                 productUnit: "g",
                 productWeight: 1000,
               ),
+              const Divider(),
               const PriceCard(
                 productName: "Green Butter and Fish",
                 productNumber: 2,
                 productUnit: "g",
                 productWeight: 56,
               ),
+              const Divider(),
               const PriceCard(
                 productName: "Fish Tuna",
                 productNumber: 3,
                 productUnit: "g",
                 productWeight: 450,
               ),
+              const Divider(),
               const PriceCard(
                 productName: "Pepsi",
                 productNumber: 4,
                 productUnit: "l",
                 productWeight: 1.5,
               ),
+              const Divider(),
               const SizedBox(
                 height: 10,
               ),
@@ -115,7 +119,7 @@ class ProductDetailsPage extends StatelessWidget {
                   Text(
                     "Total:",
                     style: TextStyle(
-                      fontSize: 18,
+                      fontSize: 22,
                       color: Colors.black,
                       fontWeight: FontWeight.w500,
                     ),
@@ -126,7 +130,7 @@ class ProductDetailsPage extends StatelessWidget {
                   Text(
                     "223 \$",
                     style: TextStyle(
-                      fontSize: 22,
+                      fontSize: 25,
                       color: Color(0xff9E00FF),
                       fontWeight: FontWeight.w700,
                     ),
