@@ -1,6 +1,13 @@
 import 'package:flutter/material.dart';
 
 class ProductCard extends StatelessWidget {
+  final String title;
+  final String description;
+  final Color mainBgColor;
+  final Color productBgColor;
+  final Color titleColor;
+  final Color descColor;
+
   const ProductCard({
     super.key,
     required this.title,
@@ -10,13 +17,6 @@ class ProductCard extends StatelessWidget {
     required this.titleColor,
     required this.descColor,
   });
-
-  final title;
-  final description;
-  final mainBgColor;
-  final productBgColor;
-  final titleColor;
-  final descColor;
 
   final double cardHeight = 200;
   final double widthHeight = 190;

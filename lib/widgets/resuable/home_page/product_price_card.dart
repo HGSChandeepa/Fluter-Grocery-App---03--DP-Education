@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_typing_uninitialized_variables
+
 import 'package:flutter/material.dart';
 
 class ProductPriceCard extends StatelessWidget {
@@ -63,7 +65,7 @@ class ProductPriceCard extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    "${price}\$",
+                    "$price\$",
                     style: const TextStyle(
                       fontSize: 22,
                       fontWeight: FontWeight.w700,
