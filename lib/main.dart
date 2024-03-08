@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:layout_desiginig/pages/category_page/categories_page.dart';
 import 'package:layout_desiginig/pages/product_details/product_details_page.dart';
 
 void main() {

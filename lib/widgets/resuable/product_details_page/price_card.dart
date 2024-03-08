@@ -7,12 +7,12 @@ class PriceCard extends StatelessWidget {
   final String productUnit;
 
   const PriceCard({
-    Key? key,
+    super.key,
     required this.productNumber,
     required this.productName,
     required this.productWeight,
     required this.productUnit,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
